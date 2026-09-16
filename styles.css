@@ -59,7 +59,8 @@ button { font: inherit; }
 }
 
 .brand-rule { position: relative; width: 145px; height: 8px; border-top: 1px solid var(--ink); }
-.brand-heart { position: absolute; top: -10px; left: 50%; padding: 0 7px; transform: translateX(-50%); color: var(--ink); font-size: 12px; background: transparent; }
+.brand-heart { position: absolute; top: -10px; left: 50%; display: grid; width: 25px; height: 16px; place-items: center; padding: 0 7px; transform: translateX(-50%); color: var(--ink); background: transparent; }
+.brand-heart svg { width: 12px; height: 12px; fill: currentColor; }
 .brand-title { font-size: 10px; font-weight: 700; letter-spacing: .28em; }
 
 .profile-photo-wrap { position: relative; width: 170px; height: 170px; margin: 0 auto 22px; animation: fade-up .7s .08s ease both; }
