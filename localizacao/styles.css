@@ -1,3 +1,5 @@
+.address-card { margin-top: 42px; }
+@media (max-width: 650px) { .address-card { margin-top: 30px; } }
 .map-image { object-fit: contain !important; object-position: center; background: transparent; }
 :root { --ink: #181818; --muted: #686868; --paper: #f1f1f1; --white: #fff; --line: #dedede; --gray: #707070; }
 * { box-sizing: border-box; }
